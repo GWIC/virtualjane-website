@@ -20,6 +20,7 @@
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113683350-2"></script>
@@ -65,9 +66,10 @@
           <!-- <h2 class="masthead-subheading mb-0">Conservation Education in Virtual Reality</h2> -->
           <img src="img/logo.png">
           <div>
-            <a href="https://goo.gl/forms/bK6TsGQpLJX6zUNo1" class="btn btn-primary btn-xl rounded-pill mt-5">Join</a>
-            <a href="mailto:virtualjane@gwic.io?subject=Donate%20to%20the%20Virtual%20Jane%20Project&body=" class="btn btn-primary btn-xl rounded-pill mt-5">Donate</a>
+            <a href="https://goo.gl/forms/bK6TsGQpLJX6zUNo1" class="btn btn-primary btn-xl rounded-pill mt-4">Join Us</a>
+            <a href="mailto:virtualjane@gwic.io?subject=Donate%20to%20the%20Virtual%20Jane%20Project&body=" class="btn btn-primary btn-xl rounded-pill mt-4">Donate</a>
           </div>
+          <div id="arrow-down"><i class="fas fa-chevron-down"></i></div>
         </div>
       </div>
       <!-- <div class="bg-circle-1 bg-circle"></div>
@@ -76,7 +78,7 @@
       <div class="bg-circle-4 bg-circle"></div> -->
     </header>
 
-    <section>
+    <section id="one">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
@@ -104,42 +106,6 @@
       </div>
     </section>
 
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3026831/580/386/m1/fpnw/wm0/vr_cm-.jpg?1501090384&s=acd5eb1a5485ffbbcf1d2c89261b2172" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="p-5">
-              <h2 class="display-4">Purpose</h2>
-              <p>The Virtual Jane initiative is a front-end focused, immersive, educational VR/AR platform intended to showcase Jane Goodall's life and work to raise conservation science awareness and empower youth science and civil engagement.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/jeep-cropped.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="p-5">
-              <h2 class="display-4">How</h2>
-              <p>GWIC is prototyping Virtual Jane, an experience that will immerse visitors in her story, and invite them to play a role in preserving and promoting her legacy. Through interactive storytelling and cutting edge visual, virtual and augmented reality technology, diverse audiences can learn directly from Dr. Goodall's impact-driven, civic and scientific life's work. Virtual Jane will catalyze the next generation of compassionate decision-makers and global activists.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Footer -->
     <footer class="py-5 bg-black">
       <div class="container">
@@ -153,7 +119,16 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script>
+      var arrowColor = $('#arrow-down').css("color");
+      $(window).bind('scroll', function() {
+        if ($(window).scrollTop() > 100) {
+          $('#arrow-down').css("color", "white");
+        }
+        else {
+           $('#arrow-down').css("color", arrowColor);
+        }
+      });
+    </script>
   </body>
-
 </html>
