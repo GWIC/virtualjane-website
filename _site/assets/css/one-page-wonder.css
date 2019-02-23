@@ -199,7 +199,7 @@ section:nth-child(2n-1) {
 
 #arrow-down {
   font-size: 5vh;
-  margin: 20vh 0 1% 0;
+  margin: 13vh 0 1% 0;
   -moz-transition: color .2s ease-in;
   -o-transition: color .2s ease-in;
   -webkit-transition: color .2s ease-in;
