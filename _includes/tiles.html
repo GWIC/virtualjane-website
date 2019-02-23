@@ -1,0 +1,15 @@
+<div class="row" id="tiles">
+  {% for role in site.data.roles %}
+  <div class="col-lg-4 col-sm-6 mb-4 card-col">
+    <div class="card h-100">
+      <a target="_blank" href="assets/roles/{{role.name}}.png"><i class="fas fa-{{role.icon}}"></i></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a target="_blank" href="assets/roles/{{role.name}}.png">{{role.display_name}}</a>
+        </h4>
+        <p class="card-text"><a href="https://goo.gl/forms/bK6TsGQpLJX6zUNo1" class="btn btn-primary btn-xl rounded-pill mt-4">Apply</a></p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

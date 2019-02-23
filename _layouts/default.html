@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
-	<body>
+	<body data-spy="scroll" data-target="masthead">
 		{% include nav.html %}
 		{{ content }}
 	</body>
+	{% include footer.html %}
 </html>

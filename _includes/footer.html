@@ -1,0 +1,43 @@
+<!-- Footer -->
+<footer class="py-5 bg-black">
+  <div class="container">
+    <p class="m-0 text-center text-white small">Office Hours (Tompkins M06): MW9:30-10:30</p>
+    <p class="m-0 text-center text-white small"><a href="mailto:virtualjane@gwic.io">virtualjane@gwic.io</a></p>
+    <p class="m-0 text-center text-white small">Copyright &copy; GWIC 2018</p>
+  </div>
+  <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  var arrowColor = $('#arrow-down').css("color");
+  $(window).bind('scroll', function() {
+    if ($(window).scrollTop() > 100) {
+      $('#arrow-down').css("color", "white");
+    }
+    else {
+       $('#arrow-down').css("color", arrowColor);
+    }
+  });
+
+  $("a[href^='#']").on('click', function(e) {
+    // prevent default anchor click behavior
+    e.preventDefault();
+
+    // store hash
+    var hash = this.hash;
+
+    // animate
+    $('html, body').animate({
+       scrollTop: $(hash).offset().top
+     }, 800, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+  });
+</script>

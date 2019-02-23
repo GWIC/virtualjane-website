@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -15,7 +14,8 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/one-page-wonder.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="icon" href="assets/img/favicon.ico">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113683350-2"></script>
@@ -28,11 +28,11 @@
     </script>
 
   </head>
-	<body>
+	<body data-spy="scroll" data-target="masthead">
 		<!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="https://virtualjane.gwic.io#">Virtual Jane</a>
+    <a class="navbar-brand" href="/">Virtual Jane</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -58,10 +58,10 @@
       <!-- <h2 class="masthead-subheading mb-0">Conservation Education in Virtual Reality</h2> -->
       <img src="assets/img/logo.png">
       <div>
-        <a href="https://goo.gl/forms/bK6TsGQpLJX6zUNo1" class="btn btn-primary btn-xl rounded-pill mt-4">Join Us</a>
-        <a href="mailto:virtualjane@gwic.io?subject=Donate%20to%20the%20Virtual%20Jane%20Project&body=" class="btn btn-primary btn-xl rounded-pill mt-4">Donate</a>
+        <a href="#join" class="btn btn-primary btn-xl rounded-pill mt-4">Join Us</a>
+        <a href="/donate.html" class="btn btn-primary btn-xl rounded-pill mt-4">Donate</a>
       </div>
-      <div id="arrow-down"><i class="fas fa-chevron-down"></i></div>
+      <div id="arrow-down"><a href="#mission"><i class="fas fa-chevron-down"></i></a></div>
     </div>
   </div>
   <!-- <div class="bg-circle-1 bg-circle"></div>
@@ -70,7 +70,7 @@
   <div class="bg-circle-4 bg-circle"></div> -->
 </header>
 
-<section id="one">
+<section id="mission">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6 order-lg-2">
@@ -80,25 +80,92 @@
       </div>
       <div class="col-lg-6 order-lg-1">
         <div class="p-5">
-          <h2 class="display-4">Join Us</h2>
-          <p>Come build a virtual reality app for a great cause with the GW Innovation Center!</p>
-
-          <p>The Virtual Jane project tells the story of Jane Goodall (primatologist, conservationist, and childhood hero) in a virtual reality mobile application. We’re working with the Jane Goodall Institute to create an immersive educational and recreation experience for Jane’s expansive audience.</p>
-
-          <p>We're expanding our team this semester to include a few new technical and non-technical roles. Check them out below and hit the Join button above if you're interested.</p>
-
-          <ul>
-            <li><a href="resources/ad_game-design.png" target="_blank">VR Game Designer</a></li>
-            <li><a href="resources/ad_graphic-design.png" target="_blank">Content Designer</a></li>
-            <li><a href="resources/ad_marketing-analyst.png" target="_blank">Marketing Analyst</a></li>
-          </ul>
+          <h2 class="display-4">Mission</h2>
+          <p>Virtual Jane will inspire the next generation to assemble under a shared passion for environmental advocacy through the experiential eyes of one of the most beloved scientists and animal lovers, <b>Jane Goodall</b>.</p>
+          <p> Learning directly from Dr. Goodall’s impact-driven, civic, and scientific achievements, young adults will be engaged and catalyzed to become <b>compassionate global activists</b> and humanitarians, find their own passions, and understand that bettering the earth is obtainable, sustainable, and indispensable.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Footer -->
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-lg-1">
+        <div class="p-5">
+          <img class="img-fluid rounded-circle" src="assets/img/jane-goodall.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 order-lg-2">
+        <div class="p-5">
+          <h2 class="display-4">What We Do</h2>
+          <p>The Virtual Jane initiative is a front-end focused, immersive, educational <b>virtual and augmented reality</b> application designed to showcase Jane Goodall's life and work to raise conservation science awareness and empower youth science and civil engagement.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="join">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-lg-2">
+        <div class="p-5">
+          <img class="img-fluid rounded-circle" src="assets/img/leaf.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 order-lg-1">
+        <div class="p-5">
+          <h2 class="display-4">Join Us</h2>
+          <p>Come build a virtual reality app for a great cause with the GW Innovation Center! We're expanding our team this semester to include a few new technical and non-technical roles.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="tiles">
+  
+  <div class="col-lg-4 col-sm-6 mb-4 card-col">
+    <div class="card h-100">
+      <a target="_blank" href="assets/roles/game-design.png"><i class="fas fa-vr-cardboard"></i></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a target="_blank" href="assets/roles/game-design.png">VR Game Designer</a>
+        </h4>
+        <p class="card-text"><a href="https://goo.gl/forms/bK6TsGQpLJX6zUNo1" class="btn btn-primary btn-xl rounded-pill mt-4">Apply</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-4 card-col">
+    <div class="card h-100">
+      <a target="_blank" href="assets/roles/graphic-design.png"><i class="fas fa-pencil-alt"></i></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a target="_blank" href="assets/roles/graphic-design.png">Content Designer</a>
+        </h4>
+        <p class="card-text"><a href="https://goo.gl/forms/bK6TsGQpLJX6zUNo1" class="btn btn-primary btn-xl rounded-pill mt-4">Apply</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-4 card-col">
+    <div class="card h-100">
+      <a target="_blank" href="assets/roles/marketing-analyst.png"><i class="fas fa-chart-pie"></i></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a target="_blank" href="assets/roles/marketing-analyst.png">Marketing Analyst</a>
+        </h4>
+        <p class="card-text"><a href="https://goo.gl/forms/bK6TsGQpLJX6zUNo1" class="btn btn-primary btn-xl rounded-pill mt-4">Apply</a></p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  </div>
+</section>
+
+	</body>
+	<!-- Footer -->
 <footer class="py-5 bg-black">
   <div class="container">
     <p class="m-0 text-center text-white small">Office Hours (Tompkins M06): MW9:30-10:30</p>
@@ -109,8 +176,9 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 <script>
   var arrowColor = $('#arrow-down').css("color");
   $(window).bind('scroll', function() {
@@ -121,7 +189,23 @@
        $('#arrow-down').css("color", arrowColor);
     }
   });
-</script>
 
-	</body>
+  $("a[href^='#']").on('click', function(e) {
+    // prevent default anchor click behavior
+    e.preventDefault();
+
+    // store hash
+    var hash = this.hash;
+
+    // animate
+    $('html, body').animate({
+       scrollTop: $(hash).offset().top
+     }, 800, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+  });
+</script>
 </html>
