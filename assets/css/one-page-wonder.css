@@ -141,7 +141,7 @@ header.masthead .bg-circle-4 {
     padding-top: calc(3rem) 0;
   }
   #arrow-down {
-    padding-top: calc(6rem);
+    margin-top: calc(6rem);
   }
 }
 
@@ -238,28 +238,28 @@ section:nth-child(2n-1) {
   text-align: center;
 }
 
-.card i {
+#tiles .card i {
   font-size: 80px;
   margin: 5%;
 }
 
-.card a, .card h4 {
+#tiles .card a, #tiles > .card h4 {
   text-align: center;
   font-size: 30px;
   color: #E49018;
   text-decoration: none;
 }
 
-#tiles > .card-col:nth-child(even) a  {
+#tiles .card-col:nth-child(even) a  {
   color: black;
 }
 
-#tiles > .card-col:nth-child(even) .btn-primary  {
+#tiles .card-col:nth-child(even) .btn-primary  {
   border-color: black;
   color: black;
 }
 
-#tiles > .card-col:nth-child(even) .btn-primary:hover  {
+#tiles .card-col:nth-child(even) .btn-primary:hover  {
   background-color: black !important;
   border-color: black !important;
   color: white;
@@ -283,4 +283,16 @@ section:nth-child(2n-1) {
 
 p > b {
   color: #E49018;
+}
+
+#team img {
+  background-image: radial-gradient(white, #f6ddb9);
+  border-radius: 5px;
+}
+
+#team .card-col:nth-child(even) {
+  margin-right: auto;
+}
+#team .card-col:nth-child(odd) {
+  margin-left: auto;
 }

@@ -1,0 +1,24 @@
+- id: ryan
+  name: Ryan Steed
+  order: 1
+- id: ricardo
+  name: Ricardo Mota
+  order: 2
+- id: jamie
+  name: Jamie Horowitz
+  order: 2
+- id: john
+  name: John Beavers
+  order: 3
+- id: kaitlyn
+  name: Kaitlyn Santiago
+  order: 1
+- id: nina
+  name: Nina Meli
+  order: 3
+- id: sydni
+  name: Sydni Nadler
+  order: 3
+- id: talia
+  name: Talia Wolkowitz
+  order: 3

@@ -1,0 +1,13 @@
+<div class="row" id="team">
+  {% assign sorted = site.data.team | sort: 'name' | sort: 'order' %}
+  {% for member in sorted %}
+  <div class="col-lg-4 col-sm-6 mb-4 card-col">
+    <div class="card h-100">
+      <img class="card-img-top" src="assets/img/team/{{member.id}}.png">
+      <div class="card-body">
+        <p>{{member.name}}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
