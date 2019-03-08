@@ -1,9 +1,12 @@
 - name: game-design
   display_name: VR Game Designer
-  icon: vr-cardboard
+  icon: fas fa-vr-cardboard
 - name: graphic-design
   display_name: Content Designer
-  icon: pencil-alt
+  icon: fas fa-pencil-alt
 - name: marketing-analyst
   display_name: Marketing Analyst
-  icon: chart-pie
+  icon: fas fa-chart-pie
+- name: social-media
+  display_name: Social Media Manager
+  icon: fab fa-instagram
