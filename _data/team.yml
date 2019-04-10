@@ -22,3 +22,6 @@
 - id: talia
   name: Talia Wolkowitz
   order: 3
+- id: cort
+  name: Cort Carlson
+  order: 3
