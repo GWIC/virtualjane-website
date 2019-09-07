@@ -294,7 +294,7 @@ p > b {
   border-radius: 5px;
 }
 
-#team .card-col:nth-child(even) {
+#team .card-col:nth-child(even), .card-col:nth-child(7n) {
   margin-right: auto;
 }
 #team .card-col:nth-child(odd) {
