@@ -13,15 +13,15 @@
 - id: kaitlin
   name: Kaitlin Santiago
   order: 1
-- id: nina
-  name: Nina Meli
-  order: 3
+# - id: nina
+#   name: Nina Meli
+#   order: 3
 - id: sydni
   name: Sydni Nadler
   order: 3
 - id: talia
   name: Talia Wolkowitz
   order: 3
-- id: cort
-  name: Cort Carlson
-  order: 3
+# - id: cort
+#   name: Cort Carlson
+#   order: 3
