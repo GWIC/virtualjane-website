@@ -265,6 +265,10 @@ section:nth-child(2n-1) {
   color: white;
 }
 
+#tiles .card-col:nth-child(odd) .btn-primary:hover  {
+  color: white;
+}
+
 #tiles {
   padding-bottom: 7%;
 }
@@ -281,7 +285,7 @@ section:nth-child(2n-1) {
   width: 30%;
 }
 
-p > b {
+p > b, a, a:hover {
   color: #E49018;
 }
 
@@ -295,4 +299,8 @@ p > b {
 }
 #team .card-col:nth-child(odd) {
   margin-left: auto;
+}
+
+#news {
+  font-size: 1.4rem;
 }

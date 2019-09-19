@@ -1,0 +1,14 @@
+<div class="container" style="text-align: center">
+  <h3>News</h3>
+  <ul id="news" style="text-align: center">
+    {% for news in site.data.news %}
+      <li class="list-inline-item">
+        <a href="{{news.url}}" target="_blank">{{news.title}} </a>{% if news.source %}({{news.source}}){% endif %}
+      </li>
+      {% if forloop.last != true %}
+        <!-- <li class="footer-menu-divider list-inline-item">&sdot;</li> -->
+        <br>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
